@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PACNW Outdoors</title>
+    <link rel="stylesheet" type="text/css" href="./main.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Use the calculator below to plan your trip</h1>
+    </header>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="./Index.html">Home</a></li>
+        <li><a href="./stateParks.html">Washington State Parks</a></li>
+        <li><a href="./waNationalParks.html">National Parks</a></li>
+        <li><a href="./hikePlanner.html">Hike Calculator</a></li>
+      </ul>
+     </nav>
+
+     <main>
+       <div id="wrapper">
+     <article>
+         <p>Following provide estimations only:</p>
+
+
+       </article>
+        <section id="calculator">
+        <label for="distance">Enter Distance in miles:</label></br></br>
+        <input type="number" id='dis' name="distance" /></br></br>
+        <button onClick="calculateDistance(dis.value)">Calculate Metrics</button></br></br>
+        <button onClick="location.reload()">Reset</button>
+        <p id="time"></p>
+        <p id="calories"></p>
+        <p id="water"></p>
+        <div id="calc-list">
+          <button onClick="window.print()">Print List</button>
+          <h4>Don't Forget The Ten Essentials</h4>
+          <ul>
+          <li>Navigation</li></br>
+          <li>Headlamp</li></br>
+          <li>Sun screen</li></br>
+          <li>First aid)</li></br>
+          <li>Knife</li></br>
+          <li>Fire Starter</li></br>
+          <li>Shelter</li></br>
+          <li>Extra food</li></br>
+          <li>Extra water</li></br>
+          <li>Extra clothes</li></br>
+          </ul>
+        </div><br><br>
+
+
+
+      </section>
+      </div>
+
+
+
+
+
+
+</main>
+
+
+     <footer>
+      <p>©Copyright 2020 by smallBizSites. All rights reversed.</p>
+    </footer>
+  </body>
+</html>

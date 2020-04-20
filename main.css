@@ -1,0 +1,194 @@
+body {
+  width: 98%;
+  height:98%;
+  box-sizing: border-box;
+  background-color: lightcyan;
+  }
+
+header {
+  text-align: center;
+  position:  relative;
+  top:5px;
+  padding-left: 20px;
+  background-color: lightgreen;
+
+}
+
+main {
+  width: 90%;
+
+  align-content: center;
+  padding-left: 130px;
+}
+
+tbody
+ {
+
+  text-align: center;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+  background-color: lightseagreen;
+}
+
+li {
+  display:inline;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.state-parks-on-map {
+  width: 650px;
+  height: 600px;
+  overflow: none;
+  text-align: center;
+}
+
+article, section {
+  width: 95%;
+  display: block;
+}
+
+table, th, td {
+  border: 1px solid black;
+  width: 90%;
+  text-align: center;
+}
+
+.wrapper {
+  float: left;
+  width: 80%;
+}
+
+.wrapper-contact {
+  top: 40px;
+}
+
+aside {
+  float: right;
+  height: auto;
+  border-style: solid;
+  border-color:8px black;
+  margin-top: 80px;
+  margin-right: 50px;
+  padding-top: -10px;
+  position: relative;
+}
+
+aside h3 {text-align: center;}
+aside ul {text-align: center;
+  width: 200px;
+}
+
+aside p {width: 200px;
+  text-align: center;
+}
+
+.ten-ess {
+  float: left;
+}
+
+footer {
+  width: 100%;
+  height: 10px;
+  text-align: center;
+  text-size-adjust: 5px;
+  background-color: lightblue;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 25px;
+
+
+}
+
+
+input[type=text], textarea {
+  width: 80%;
+  align-content: center;
+  padding: 12px;
+  border: 1px solid black;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  min-height: 150px;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+}
+
+form { float: left;
+  width: 60%;
+  height: 400px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+
+  }
+
+  #olympic-park, #ranier-park, #cascade-park {
+    width: 60%;
+float: left;
+
+  }
+
+#olympic-park-img, #ranier-park-img, #cascade-park-img {
+   height: 300px;
+   width: 300px;
+}
+
+#deception-pass, #palouse-park, #cape-disappointment {
+  height: 250px;
+  width: 250px;
+}
+
+#deception-pass-ind,
+#palouse-park-ind,
+#cape-disappointment-ind {
+  height: 300px;
+  width: 300px;
+  display: inline;
+  padding-left: 30px;
+
+}
+
+#nation-park-main {
+  width: 50%;
+  float:left;
+}
+
+#time, #calories, #water {
+  text-align: center;
+  font-size: large;
+}
+
+#calculator {
+  text-align: center;
+  border-style: dotted;
+  border: 8px solid black;
+  width: 80%;
+  }
+
+  #calc-list {
+    display: none;
+  }
+
+
